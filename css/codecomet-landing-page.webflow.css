@@ -1,0 +1,61 @@
+.body {
+  background-image: url('../images/codecomet-space.png');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.heading {
+  color: #fff;
+}
+
+.container {
+  height: 600px;
+  margin-top: 20px;
+}
+
+.heading-2 {
+  font-family: 'Nimbus San L - Bol', sans-serif;
+  color: #fff;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+.image {
+  position: absolute;
+  left: auto;
+  top: -75px;
+  right: -100px;
+  bottom: auto;
+  width: 600px;
+  min-width: 400px;
+}
+
+@font-face {
+  font-family: 'Nimbus San L - Bol Ita';
+  src: url('../fonts/NimbusSanL-BolIta.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nimbus San L - Reg';
+  src: url('../fonts/NimbusSanL-Reg.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nimbus San L - Reg Ita';
+  src: url('../fonts/NimbusSanL-RegIta.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nimbus San L - Bol';
+  src: url('../fonts/NimbusSanL-Bol.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
