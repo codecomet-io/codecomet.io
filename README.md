@@ -24,3 +24,8 @@ Read:
 
 * https://docusaurus.io/docs/docs-introduction for docs
 * https://docusaurus.io/docs/creating-pages for pages
+* for picking a color palette: https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima
+
+See [infima](https://infima.dev/docs/components/alert) for advanced styling info.
+
+
