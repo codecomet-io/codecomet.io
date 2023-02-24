@@ -73,6 +73,8 @@ const config = {
           anonymizeIP: false,
         }
       ],
+    /*
+    // Shite is broke
       [
         '@docusaurus/plugin-sitemap',
         {
@@ -82,6 +84,8 @@ const config = {
           filename: 'sitemap.xml',
         },
       ],
+
+     */
   ],
 
 
