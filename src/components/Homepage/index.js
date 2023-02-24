@@ -1,8 +1,8 @@
+import styles from "./styles.module.css";
 import { useColorMode } from '@docusaurus/theme-common';
 import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 import React from 'react';
 import clsx from "clsx";
-import styles from "./styles.module.css";
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
