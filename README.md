@@ -1,29 +1,16 @@
-# codecomet.io
+# Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/54828d8e-b8ca-4295-97ff-31f3a22210f6/deploy-status)](https://app.netlify.com/sites/endearing-taiyaki-619511/deploys)
+### Installation
 
-## Hack
-
-`docs` contain a docusaurus spawn.
-
-To test it locally:
-```bash
-cd docs
-yarn start
+```
+$ yarn
 ```
 
-Edit on `docs/docs` or `docs/src/pages`.
+### Local Development
 
-Read: 
-- https://docusaurus.io/docs/docs-introduction for docs
-- https://docusaurus.io/docs/creating-pages for pages
+```
+$ yarn start
+```
 
-## Publish
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-Create a branch.
-
-Commit to the branch.
-
-Open a PR. Netlify will give you a preview url.
-
-Do NOT commit to main.
