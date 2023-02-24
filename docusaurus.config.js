@@ -65,6 +65,8 @@ const config = {
   ],
 
   plugins: [
+     'tailwind-loader',
+      //     plugins: ['my-loaders', 'tailwind-loader'],
       require.resolve('docusaurus-lunr-search'),
       [
       '@docusaurus/plugin-google-gtag',
