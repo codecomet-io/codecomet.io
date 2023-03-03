@@ -32,6 +32,11 @@ const config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -65,16 +70,16 @@ const config = {
   ],
 
   plugins: [
-     'tailwind-loader',
-      //     plugins: ['my-loaders', 'tailwind-loader'],
-      require.resolve('docusaurus-lunr-search'),
-      [
+    'tailwind-loader',
+    //     plugins: ['my-loaders', 'tailwind-loader'],
+    require.resolve('docusaurus-lunr-search'),
+    [
       '@docusaurus/plugin-google-gtag',
-        {
-          trackingID: 'G-BD748RBYM1',
-          anonymizeIP: false,
-        }
-      ],
+      {
+        trackingID: 'G-BD748RBYM1',
+        anonymizeIP: false,
+      }
+    ],
     /*
     // Shite is broke
       [
@@ -142,13 +147,13 @@ const config = {
           {
             title: 'Community',
             items: [
-                /*
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
+              /*
+            {
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            },
 
-                 */
+               */
               {
                 label: 'Discord',
                 href: 'https://discord.gg/HphFDdtTX4',
@@ -162,13 +167,13 @@ const config = {
           {
             title: 'More',
             items: [
-                /*
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              /*
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
 
-                 */
+               */
               {
                 label: 'GitHub',
                 href: 'https://github.com/codecomet-io',
