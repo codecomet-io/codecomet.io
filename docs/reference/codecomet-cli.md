@@ -5,7 +5,7 @@ sidebar_position: 2
 # CodeComet CLI
 
 ## Commands
-Here is a list of all of the currently available CodeComet CLI commands:
+Currently available CodeComet CLI commands:
 - `codecomet run <pipeline>`
 - `codecomet version`
 - `codecomet install`
@@ -18,7 +18,7 @@ Here is a list of all of the currently available CodeComet CLI commands:
 - `??? codecomet config ???`
 
 ## Explanation
-And here is an explanation of what each command does:
+Usage details and a brief explanation for each command:
 
 | Command | Explanation |
 | ------- | ----------- |
