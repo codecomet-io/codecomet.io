@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Expressing a Pipeline
+# Pipeline Design
 
 One of the key features of CodeComet is the expression of Pipelines in a developer's language of choice.
 
@@ -11,14 +11,14 @@ Starting with the currently available Go SDK, and with SDKs for all other mainst
 ## Example Pipeline Code
 
 Here is an example Pipeline defined with CodeComet's Go SDK. In the example, the Pipeline does the following:
-- _these are not the actual steps and need to be updated_
+- _these are not the actual steps and need to be updated, Mr. Space Raccoon!_
 - sets up a Debian image
 - clones a `git` repo
 - installs required dependencies
 - compiles the application
 - creates a zip file ready to be deployed
 
-_Need an updated example below:_
+_Need an updated example below, Mr. Space Raccoon!_
 ```go
 package main
 
@@ -84,7 +84,7 @@ func main() {
 ```
 
 ## Breakdown of Pipeline Example
-Let's break down the Pipeline above, one line at a time (_needs to be updated_):
+Let's break down the Pipeline above, one line at a time (_needs to be updated, Mr. Space Raccoon!_):
 
 | Command | Explanation |
 | ------- | ----------- |

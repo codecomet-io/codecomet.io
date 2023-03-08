@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-This page is for folks that are new to CodeComet. It will give you a high-level overview of our CI solution. If you'd rather skip this part, our **[Quickstart guide](https://docs.codecomet.io/quickstart)** will get you up and running faster.
+This page is for folks that are new to CodeComet. It will give you a high-level overview of our CI solution. If you'd rather skip this part, our [Quickstart guide](https://docs.codecomet.io/quickstart) will get you up and running faster.
 
 ## What is CodeComet?
 

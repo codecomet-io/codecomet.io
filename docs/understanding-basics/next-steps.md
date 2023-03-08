@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# What's Next?
+# Next Steps
 
 So far, you have learned the **basics of CodeComet** and executed your **first Pipeline**.
 

@@ -2,11 +2,9 @@
 sidebar_position: 8
 ---
 
-# Understanding CI Performance
+# CI Performance
 
-It's one thing to have visibility into an individual Pipeline execution. But what if you want to look at the overall health and performance of your CI system?
-
-CodeComet also offers a roll-up view of how all the Pipelines across your organization are running, in aggregate.
+Beyond providing visibility into individual Pipeline executions, CodeComet also offers insights into the overall health and performance of your CI system. This enables team members to see a roll-up view of how all the Pipelines across the organization are running, in aggregate.
 
 We currently surface details such as:
 * **Usage and Reliability**
