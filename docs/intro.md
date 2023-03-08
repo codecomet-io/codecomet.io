@@ -44,8 +44,23 @@ CodeComet is architected on top of open-source projects `buildkit` and `containe
 
 ### System Block Diagram (placeholder)
 ```mermaid
-sequenceDiagram
-    participant Local Machine
-    participant Existing CI
-    participant Cache Server
+flowchart TB
+    subgraph LM[Local Machine]
+    IDE-->VM
+    end
+    subgraph VM
+    buildkitd
+    containerd
+    end
+    LM-->GitHub
+    GitHub-->GA
+    subgraph GA[GitHub Actions]
+    GAR
+    end
+    subgraph GAR[GitHub Actions Runner]
+    subgraph CCVM[CodeComet VM]
+    ccbuildkitd[buildkitd]
+    cccontainerd[containerd]
+    end
+    end
 ```

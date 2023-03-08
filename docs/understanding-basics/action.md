@@ -14,10 +14,10 @@ Actions can be envisioned as the atomic tasks whose inputs and outputs are conne
 
 Example dependency graph of Actions:
 ```mermaid
-graph TD;
-    Action1-->Action2;
-    Action1-->Action3;
-    Action2-->Action4;
-    Action3-->Action4;
-    Action4-->Action5;
+graph TB
+    Action1-->Action2
+    Action1-->Action3
+    Action2-->Action4
+    Action3-->Action4
+    Action4-->Action5
 ```

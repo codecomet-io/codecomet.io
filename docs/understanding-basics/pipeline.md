@@ -13,20 +13,24 @@ More specifically, a Pipeline is made up of Actions that run within one or more 
 Example Pipeline made up of multiple Actions:
 ```mermaid
 flowchart TB
-    subgraph Action Set 3
-    A7-->A8
-    end
-    subgraph Action Set 2
-    A4-->A5
-    A5-->A6
-    end
-    subgraph Action Set 1
-    A1-->A2
-    A2-->A3
-    end
     subgraph Pipeline
     Start-->A1
     Start-->A4
     Start-->A7
+        subgraph Action Set 3
+        A7-->A8
+        A8-->A9
+        end
+        subgraph Action Set 2
+        A4-->A5
+        A5-->A6
+        end
+        subgraph Action Set 1
+        A1-->A2
+        A2-->A3
+        end
+    A3-->Finish
+    A6-->Finish
+    A9-->Finish
     end
 ```
