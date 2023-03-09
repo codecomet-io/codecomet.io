@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# What is a FileSet?
+# FileSet
 
 In simplest terms, a FileSet is a collection of files and folders. These are typically the inputs or outputs of Actions, which encapsulate the instructions for manipulating them.
 

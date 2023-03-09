@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Executing a Pipeline
+# Pipeline Execution
 
 ## From Command Line
 
@@ -14,14 +14,14 @@ codecomet run pipeline.go
 
 The output should look something like this:
 ```
-...example output...
+<insert appropriate sample output here>
 ```
 
 The [CodeComet CLI reference document](/docs/reference/codecomet-cli) contains more information on the available commands.
 
 ## Within Existing CI
 
-If you want to run CodeComet within your existing CI runners, you may easily do so. Below is an example YAML to set up CodeComet to run on GitHub Actions' runner.
+If you want to run CodeComet within your existing CI runners, you may easily do so. Below is an example YAML to set up CodeComet to run on GitHub Actions.
 
 ```yaml
 name: CI

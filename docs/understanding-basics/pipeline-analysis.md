@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Analyzing A Pipeline
+# Pipeline Analysis
 
 CodeComet has first-class support for logging and monitoring. At the moment, the system forwards Pipeline execution details to Elastic. Through Elastic's Kibana interface, you can quickly examine the results of a single Pipeline execution.
 

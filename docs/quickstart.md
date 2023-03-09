@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Quickstart Guide
 
-Below is everything you need to know to design and run your first pipeline.
+Below is everything required to setup and run a Pipeline in CodeComet.
 
 ## Installation
 
@@ -93,7 +93,14 @@ From the command line, execute the pipeline by running the following:
 codecomet run pipeline.go
 ```
 The output should look something like this:
+```
+<insert appropriate sample output here>
+```
 
-## Congratulations!
+## All Done
 
-You just ran your first CodeComet Pipeline. You are well on your way to becoming a CI pro! :smile:
+That's it! You just ran your first CodeComet Pipeline.
+
+The next section, [Understanding the Basics](/docs/category/understanding-the-basics), will bring you up to speed on core CodeComet concepts.
+
+If you'd like to dive into the deep end and look through our reference documentation for Go, here is our [CodeComet Go SDK documentation](https://pkg.codecomet.dev/github.com/codecomet-io/go-sdk@v0.0.0/codecomet).
